@@ -54,9 +54,9 @@ A Natural Language Processing (NLP) project that classifies resumes into job cat
 resume-job-classifier/
 ├── data/ # Processed dataset
 ├── notebooks/ # Jupyter notebooks
-│ ├── 01_data_exploration.ipynb
-│ ├── 02_data_cleaning_preprocessing.ipynb
-│ └── 03_model_training_evaluation.ipynb
+│ ├── 01_EDA_data_cleaning.ipynb
+│ ├── 02_model_training_evaluation.ipynb
+│ └── 03_model_training_and_visualization_improved.ipynb
 ├── scripts/
 │ └── predict_resume.py # Script to predict job role from input resume
 ├── README.md
