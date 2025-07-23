@@ -63,11 +63,12 @@ resume-job-classifier/
 ├── requirements.txt
 
 7. ### 🧪 Model Evaluation Summary
-Metric	Baseline Model (02)	Improved Model (03)
-Accuracy	78.8%	82.0%
-Weighted F1-Score	78%	81%
-Avg. Precision	79%	82%
-Avg. Recall	77%	80%
+Metric   	      Baseline Model (02)   	Improved Model (03)
+Accuracy         	78.8%                  	82.0%
+Weighted
+F1-Score         	78%	                  81%
+Avg. Precision   	79%                  	82%
+Avg. Recall      	77%	                  80%
 
 Key Improvements:
 
@@ -84,8 +85,6 @@ Confusion matrices clearly show better separation across classes.
 Precision/Recall heatmaps reflect gains in specific domains like Business Analyst, Aviation, Digital Media, etc.
 
 Classes like Blockchain and React Developer remain low-support but are now handled more robustly.
-
-
 
 
 ### 🚀 How to Use
