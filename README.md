@@ -63,12 +63,12 @@ resume-job-classifier/
 ├── requirements.txt
 
 7. ### 🧪 Model Evaluation Summary
-Metric   	      Baseline Model (02)   	Improved Model (03)
-Accuracy         	78.8%                  	82.0%
+---Metric   	  |    ---Baseline Model (02)|  	---Improved Model (03)
+Accuracy         |   	78.8%                  	|82.0%
 Weighted
-F1-Score         	78%	                  81%
-Avg. Precision   	79%                  	82%
-Avg. Recall      	77%	                  80%
+F1-Score         	78%	                        |81%
+Avg. Precision   |	79%                  	   |82%
+Avg. Recall      	|77%	                        |80%
 
 Key Improvements:
 
