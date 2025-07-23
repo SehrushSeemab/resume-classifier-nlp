@@ -32,54 +32,52 @@ A Natural Language Processing (NLP) project that classifies resumes into job cat
 3. **Feature Extraction**  
    - TF-IDF vectorization of cleaned text
 
-4. **Modeling** *(Coming Soon)*  
-   - Logistic Regression, SVM, Random Forest classifiers
+4. ### 🧪 Models Used
 
-5. **Evaluation & Visualization** *(Coming Soon)*  
-   - Classification metrics: accuracy, F1-score  
-   - Insights using word clouds & bar charts of skills per role
+- **TF-IDF Vectorizer**
+- **Random Forest Classifier**
+- Accuracy: ~78.8% on test data
+- Classification report shows strong performance on job roles like DevOps, Mechanical Engineer, Java Developer, and more
 
----
+5. ### 🛠️ Tools & Technologies
 
-## 📈 Example Insights (Coming Soon)
-
-- Most common skills per job title
-- Resume classification accuracy per category
-- Resume keyword visualizations
-
----
-
-## 🧑‍💻 Author
-
-**Sehrush Seemab Awan**  
-MSc in Data Science | NLP & AI Enthusiast  
-[GitHub](https://github.com/SehrushSeemab) | [LinkedIn](https://www.linkedin.com/in/sehrushseemabawan)
-
----
-
-## ✅ Status
-
-🚧 In Progress – More models, visualizations, and deployment to come!
-
----
-
-## 📌 License
-
-This project is open-source and free to use under the [MIT License](LICENSE).
-
-
-
----
-
-## 🧰 Tools & Libraries
-
-- Python (Jupyter Notebooks)
+- Python
 - Pandas, NumPy
-- Scikit-learn
+- scikit-learn
 - NLTK
-- Matplotlib, Seaborn
-- TF-IDF Vectorizer
+- Jupyter Notebook
+- Matplotlib / Seaborn (for visualization)
 
----
 
-## 📂 Project Structure
+6. ### 📂 Project Structure
+
+resume-job-classifier/
+├── data/ # Processed dataset
+├── notebooks/ # Jupyter notebooks
+│ ├── 01_data_exploration.ipynb
+│ ├── 02_data_cleaning_preprocessing.ipynb
+│ └── 03_model_training_evaluation.ipynb
+├── scripts/
+│ └── predict_resume.py # Script to predict job role from input resume
+├── README.md
+├── requirements.txt
+
+
+### 🚀 How to Use
+
+1. Clone the repository:
+```bash
+git clone https://github.com/SehrushSeemab/resume-job-classifier.git
+cd resume-job-classifier
+Install dependencies:
+
+pip install -r requirements.txt
+Run the prediction script:
+
+python scripts/predict_resume.py "Paste your resume text here"
+✨ Output Example
+
+Predicted Category: Data Science
+🤝 Contributions
+Contributions, ideas, and improvements are welcome!
+
