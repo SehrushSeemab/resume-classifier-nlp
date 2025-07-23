@@ -63,14 +63,14 @@ resume-job-classifier/
 ├── requirements.txt
 
 7. ### 🧪 Model Evaluation Summary
----Metric   	  |    ---Baseline Model (02)|  	---Improved Model (03)
-Accuracy         |   	78.8%                  	|82.0%
-Weighted
-F1-Score         	78%	                        |81%
-Avg. Precision   |	79%                  	   |82%
-Avg. Recall      	|77%	                        |80%
+| Metric            | Baseline Model (`02`) | Improved Model (`03`) |
+|-------------------|------------------------|------------------------|
+| Accuracy          | 78.8%                  | **82.0%**              |
+| Weighted F1-Score | 78%                    | **81%**                |
+| Avg. Precision    | 79%                    | **82%**                |
+| Avg. Recall       | 77%                    | **80%**                |
 
-Key Improvements:
+### 📊 Key Improvements:
 
 Applied better preprocessing and text cleaning.
 
@@ -78,7 +78,7 @@ Switched from baseline logistic regression to a tuned classifier.
 
 Improved class balance and support visualization.
 
-Visual Insights:
+### ✅ Visual Insights:
 
 Confusion matrices clearly show better separation across classes.
 
